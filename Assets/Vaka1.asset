@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5eac92eb99fb9148b0891540809e2b7, type: 3}
+  m_Name: Vaka1
+  m_EditorClassIdentifier: 
+  caseName: "De\u011Ferli Ta\u015F"
+  caseDescription: "Zengin koleksiyoncu Ayla Han\u0131m\u2019\u0131n \xF6zel kasas\u0131nda
+    saklad\u0131\u011F\u0131, paha bi\xE7ilmez elmas kolyesi kayboldu. Olay an\u0131nda
+    evde sadece d\xF6rt ki\u015Fi bulunuyordu: 20 y\u0131ll\u0131k u\u015Fak Mehmet,
+    bah\xE7\u0131van Zeynep, a\u015F\xE7\u0131 Fatma ve misafir olan kuzeni Reha
+    Bey. Olay g\xFCn\xFC g\xFCvenlik kameralar\u0131 teknik ar\u0131zadan dolay\u0131
+    \xE7al\u0131\u015Fm\u0131yordu. Ayla Han\u0131m, \u015F\xFCphelerini yak\u0131n
+    \xE7evresinde yo\u011Funla\u015Ft\u0131r\u0131yor. Kolye saat 12:00 civar\u0131
+    son kez salonda g\xF6r\xFCl\xFCyor. Reha, o s\u0131rada \u201Ckoleksiyonu incelemek
+    istedi\u011Fini\u201D s\xF6yleyerek salona giriyor. Saat 13:00\u2019te Ayla Han\u0131m
+    tekrar salona girdi\u011Finde kolyenin yerinde olmad\u0131\u011F\u0131n\u0131
+    fark ediyor. O anda evde ba\u015Fka ziyaret\xE7i yok. U\u015Fak Mehmet o s\u0131rada
+    Ayla Han\u0131m\u2019\u0131n yan\u0131nda, Fatma mutfakta, Zeynep bah\xE7ede
+    \xE7al\u0131\u015F\u0131yor. Reha Bey kolyenin yerini bilmesine ra\u011Fmen \u015Fa\u015Fk\u0131n
+    g\xF6r\xFCn\xFCyor. G\xFCvenlik sisteminin devre d\u0131\u015F\u0131 oldu\u011Fu
+    ortaya \xE7\u0131k\u0131nca \u015F\xFCpheler yo\u011Funla\u015F\u0131yor."
+  trueVerdict: 1
+  validScenarios:
+  - scenarioName: Senaryo1
+    requiredCardIDs:
+    - bahce
+    - kolye
+    - usak
+    - asci
+    - hanimefendi
+    supportedVerdict: 2
+  - scenarioName: Senaryo2
+    requiredCardIDs:
+    - hanimefendi
+    - asci
+    - usak
+    - kolye
+    - bahce
+    supportedVerdict: 1
