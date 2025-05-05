@@ -9,12 +9,12 @@ public class ChoiceManager : MonoBehaviour
 {
 
     public GameObject sanik;
-  [Header("Case Setup")]
+    [Header("Case Setup")]
     // O an oynanan davanın CaseData asset'ini buraya sürükleyin.
     public String feedbackMessage; // Karar sonucunu göstermek için kullanılacak mesaj
-    public GameObject[] slotAreas = new GameObject[5]; // Slot alanlarını tutacak dizi (örneğin, 5 slot alanı)
-    public List<Scenarios> Scenarios; // Tüm senaryoları tutacak dizi (örneğin, 5 senaryo)
-    private int currentScenarioIndex; // Tüm senaryoları tutacak dizi (örneğin, 5 senaryo)
+    public GameObject[] slotAreas = new GameObject[6]; // Slot alanlarını tutacak dizi (örneğin, 6 slot alanı)
+    public List<Scenarios> Scenarios; // Tüm senaryoları tutacak dizi (örneğin, 6 senaryo)
+    private int currentScenarioIndex; // Tüm senaryoları tutacak dizi (örneğin, 6 senaryo)
     private List<string> ikinciCocukIsimleri = new List<string>(); // İkinci çocuk isimlerini saklamak için bir alan
     
     
@@ -43,7 +43,7 @@ public class ChoiceManager : MonoBehaviour
             }
         }
 
-        if (doluSlotSayisi == 5)
+        if (doluSlotSayisi == 6)
         {
             sanik.SetActive(true);
         }
@@ -57,11 +57,11 @@ public class ChoiceManager : MonoBehaviour
 
         Debug.Log(Scenarios.Count); // Senaryo listesinin uzunluğunu kontrol et
 
-        // 4. slot1 - slot5 arası çocukları gez
+        // 4. slot1 - slot6 arası çocukları gez
         for (int i = 0; i < slotAreas.Length; i++)
         {
-            Transform slot = slotAreas[i].transform; // slot1 - slot5
-            // 5. slot1 - slot5'in çocuklarını kontrol et
+            Transform slot = slotAreas[i].transform; // slot1 - slot6
+            // 6. slot1 - slot6'in çocuklarını kontrol et
 
             if (slot.childCount >= 2)
             {
@@ -74,7 +74,7 @@ public class ChoiceManager : MonoBehaviour
             }
         }
 
-        if (ikinciCocukIsimleri.Count == 5)
+        if (ikinciCocukIsimleri.Count == 6)
         {
             CheckPlayerScenario();
         }
@@ -84,7 +84,7 @@ public class ChoiceManager : MonoBehaviour
             ikinciCocukIsimleri.Clear(); // Yeterli kart dizilimi yoksa listeyi temizle
         }
         /*
-        // 5. Listeyi yazdır
+        // 6. Listeyi yazdır
         Debug.Log("İkinci çocuk isimleri:");
         foreach (string isim in ikinciCocukIsimleri)
         {

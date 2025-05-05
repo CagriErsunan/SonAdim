@@ -13,20 +13,91 @@ MonoBehaviour:
   m_Name: Vaka2
   m_EditorClassIdentifier: 
   caseName: Vaka2
-  caseDescription: "Vaka a\xE7\u0131klamas\u0131..."
+  caseDescription: "Zengin koleksiyoncu Ayla Han\u0131m\u2019\u0131n \xF6zel kasas\u0131nda
+    saklad\u0131\u011F\u0131, paha bi\xE7ilmez elmas kolyesi kayboldu. Olay an\u0131nda
+    evde sadece d\xF6rt ki\u015Fi bulunuyordu: 20 y\u0131ll\u0131k u\u015Fak Mehmet,
+    bah\xE7\u0131van Zeynep, a\u015F\xE7\u0131 Fatma ve misafir olan kuzeni Reha
+    Bey. Olay g\xFCn\xFC g\xFCvenlik kameralar\u0131 teknik ar\u0131zadan dolay\u0131
+    \xE7al\u0131\u015Fm\u0131yordu. Ayla Han\u0131m, \u015F\xFCphelerini yak\u0131n
+    \xE7evresinde yo\u011Funla\u015Ft\u0131r\u0131yor. Kolye saat 12:00 civar\u0131
+    son kez salonda g\xF6r\xFCl\xFCyor. Reha, o s\u0131rada \u201Ckoleksiyonu incelemek
+    istedi\u011Fini\u201D s\xF6yleyerek salona giriyor. Saat 13:00\u2019te Ayla Han\u0131m
+    tekrar salona girdi\u011Finde kolyenin yerinde olmad\u0131\u011F\u0131n\u0131
+    fark ediyor. O anda evde ba\u015Fka ziyaret\xE7i yok. U\u015Fak Mehmet o s\u0131rada
+    Ayla Han\u0131m\u2019\u0131n yan\u0131nda, Fatma mutfakta, Zeynep bah\xE7ede
+    \xE7al\u0131\u015F\u0131yor. Reha Bey kolyenin yerini bilmesine ra\u011Fmen \u015Fa\u015Fk\u0131n
+    g\xF6r\xFCn\xFCyor. G\xFCvenlik sisteminin devre d\u0131\u015F\u0131 oldu\u011Fu
+    ortaya \xE7\u0131k\u0131nca \u015F\xFCpheler yo\u011Funla\u015F\u0131yor.\r\n"
   trueVerdict: 2
+  whatReallyHappened: "HIRSIZLIK SORU\u015ETURMASI\r\r\nDAVA\uE092 Ayla Han\u0131m\u02BC\u0131n
+    Kay\u0131p Elmas Kolyesi\r\n RAPOR\uE092 Soru\u015Fturma Sonu\xE7 \xD6zeti\r\n
+    Olay\u0131n \xD6zeti:\r\n Ayla Han\u0131m\u02BC\u0131n paha bi\xE7ilemez de\u011Ferdeki
+    elmas kolyesi, evinde ger\xE7ekle\u015Fen \r\nh\u0131rs\u0131zl\u0131k sonucu
+    kaybolmu\u015Ftur. Olay g\xFCn\xFC evde bulunan d\xF6rt ki\u015Fi \u2013 u\u015Fak
+    Mehmet, \r\nbah\xE7\u0131van Zeynep, a\u015F\xE7\u0131 Fatma ve kuzen Reha Bey
+    \u2013 \u015F\xFCpheli olarak \r\nde\u011Ferlendirilmi\u015Ftir. Soru\u015Fturma
+    sonucunda, olay\u0131n faili net olarak belirlenmi\u015Ftir.\r\n Deliller ve
+    Zaman \xC7izelgesi:\r\n Kolye en son saat 12\uE09200 civar\u0131nda salonda g\xF6r\xFClm\xFC\u015Ft\xFCr.\r\n
+    Ayn\u0131 saatte Reha Bey\u02BCin salonda oldu\u011Fu tespit edilmi\u015Ftir.\r\n
+    Kolye kutusunda Reha\u02BCya ait taze parmak izleri bulunmu\u015Ftur.\r\n G\xFCvenlik
+    sistemi bilin\xE7li ve profesyonel bir m\xFCdahaleyle devre d\u0131\u015F\u0131
+    b\u0131rak\u0131lm\u0131\u015Ft\u0131r.\r\n Reha\u02BCn\u0131n arac\u0131nda
+    kolye kutusuna ait fiber par\xE7alar bulunmu\u015F, telefonunda ise \r\nkuyumcularla
+    \u015F\xFCpheli yaz\u0131\u015Fmalara rastlanm\u0131\u015Ft\u0131r.\r\n Di\u011Fer
+    \xFC\xE7 ki\u015Finin olay saatinde evin d\u0131\u015F\u0131nda ya da farkl\u0131
+    yerlerde oldu\u011Fu, tan\u0131klar \r\nve kay\u0131tlarla do\u011Frulanm\u0131\u015Ft\u0131r.\r\n
+    Tan\u0131k ve \u015E\xFCpheli \u0130fadeleri:\r\n Ayla Han\u0131m, Reha\u02BCn\u0131n
+    koleksiyona ilgisini ve o g\xFCn \xF6zel olarak salona girmek \r\nistedi\u011Fini
+    belirtmi\u015Ftir.\r\n Mehmet, o saatlerde Ayla Han\u0131m\u02BCla birlikte oldu\u011Funu
+    s\xF6ylemi\u015F ve bu saat \r\nkay\u0131tlar\u0131yla do\u011Frulanm\u0131\u015Ft\u0131r.\r\n
+    Zeynep\u02BCin bah\xE7ede oldu\u011Fu kom\u015Fular taraf\u0131ndan da onaylanm\u0131\u015Ft\u0131r.\r\n
+    Fatma, t\xFCm g\xFCn mutfakta oldu\u011Funu ve kay\u0131tlar\u0131n bunu do\u011Frulad\u0131\u011F\u0131n\u0131
+    belirtmi\u015Ftir.\r\n Reha ise su\xE7lamalar\u0131 reddetmi\u015F, sadece koleksiyonu
+    inceledi\u011Fini s\xF6ylemi\u015Ftir.\r\n Adli Bulgular:\r\n Parmak izleri,
+    fiber kal\u0131nt\u0131lar ve elektronik sistem bilgisiyle Reha\u02BCn\u0131n
+    olaya \r\nteknik olarak m\xFCdahil olabilece\u011Fi kan\u0131tlanm\u0131\u015Ft\u0131r.\r\n
+    Telefon yaz\u0131\u015Fmalar\u0131, kolyenin sat\u0131\u015Fa \xE7\u0131kar\u0131lmaya
+    \xE7al\u0131\u015F\u0131ld\u0131\u011F\u0131n\u0131 g\xF6stermektedir.\r\n 4\r\n
+    Senaryo Sonu\xE7lar\u0131\r\nKarar ve Sonu\xE7:\r\n Reha Bey, t\xFCm deliller
+    \u0131\u015F\u0131\u011F\u0131nda \u201Cnitelikli h\u0131rs\u0131zl\u0131k\u02EE
+    su\xE7undan su\xE7lu bulunmu\u015F ve 5 y\u0131l \r\nhapis cezas\u0131na \xE7arpt\u0131r\u0131lm\u0131\u015Ft\u0131r.
+    Ayr\u0131ca, kolyenin maddi de\u011Feri Ayla Han\u0131m\u02BCa tazmin \r\nettirilecektir.\r\n
+    Ek Not:\r\n Elmas kolye hen\xFCz bulunamam\u0131\u015F olup, Reha Bey\u02BCin
+    temas kurdu\u011Fu kuyumcularla \r\nilgili soru\u015Fturma s\xFCrmektedir."
   validScenarios:
   - scenarioName: Senaryo1
     requiredCardIDs:
-    - zeynep
+    - "bor\xE7"
+    - "\u015F\xFCpheilgi"
     - kolye
-    - asci
-    - ariza
-    supportedVerdict: 2
+    - "bah\xE7e"
+    - "song\xF6r\xFClme"
+    - "g\xFCvenlikar\u0131zas\u0131"
+    supportedVerdict: 1
   - scenarioName: Senaryo2
     requiredCardIDs:
-    - asci
-    - zeynep
+    - "\u015F\xFCpheilgi"
     - kolye
-    - ariza
+    - "song\xF6r\xFClme"
+    - mutfak
+    - "g\xFCvenlikar\u0131zas\u0131"
+    - "bor\xE7"
     supportedVerdict: 1
+  - scenarioName: Senaryo3
+    requiredCardIDs:
+    - "\u015F\xFCpheilgi"
+    - kolye
+    - "bah\xE7e"
+    - mutfak
+    - "song\xF6r\xFClme"
+    - "g\xFCvenlikar\u0131zas\u0131"
+    supportedVerdict: 2
+  - scenarioName: Senaryo4
+    requiredCardIDs:
+    - kolye
+    - "bah\xE7e"
+    - mutfak
+    - "song\xF6r\xFClme"
+    - "\u015F\xFCpheilgi"
+    - "g\xFCvenlikar\u0131zas\u0131"
+    supportedVerdict: 2

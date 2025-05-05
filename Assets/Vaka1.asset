@@ -12,37 +12,89 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5eac92eb99fb9148b0891540809e2b7, type: 3}
   m_Name: Vaka1
   m_EditorClassIdentifier: 
-  caseName: "De\u011Ferli Ta\u015F"
-  caseDescription: "Zengin koleksiyoncu Ayla Han\u0131m\u2019\u0131n \xF6zel kasas\u0131nda
-    saklad\u0131\u011F\u0131, paha bi\xE7ilmez elmas kolyesi kayboldu. Olay an\u0131nda
-    evde sadece d\xF6rt ki\u015Fi bulunuyordu: 20 y\u0131ll\u0131k u\u015Fak Mehmet,
-    bah\xE7\u0131van Zeynep, a\u015F\xE7\u0131 Fatma ve misafir olan kuzeni Reha
-    Bey. Olay g\xFCn\xFC g\xFCvenlik kameralar\u0131 teknik ar\u0131zadan dolay\u0131
-    \xE7al\u0131\u015Fm\u0131yordu. Ayla Han\u0131m, \u015F\xFCphelerini yak\u0131n
-    \xE7evresinde yo\u011Funla\u015Ft\u0131r\u0131yor. Kolye saat 12:00 civar\u0131
-    son kez salonda g\xF6r\xFCl\xFCyor. Reha, o s\u0131rada \u201Ckoleksiyonu incelemek
-    istedi\u011Fini\u201D s\xF6yleyerek salona giriyor. Saat 13:00\u2019te Ayla Han\u0131m
-    tekrar salona girdi\u011Finde kolyenin yerinde olmad\u0131\u011F\u0131n\u0131
-    fark ediyor. O anda evde ba\u015Fka ziyaret\xE7i yok. U\u015Fak Mehmet o s\u0131rada
-    Ayla Han\u0131m\u2019\u0131n yan\u0131nda, Fatma mutfakta, Zeynep bah\xE7ede
-    \xE7al\u0131\u015F\u0131yor. Reha Bey kolyenin yerini bilmesine ra\u011Fmen \u015Fa\u015Fk\u0131n
-    g\xF6r\xFCn\xFCyor. G\xFCvenlik sisteminin devre d\u0131\u015F\u0131 oldu\u011Fu
-    ortaya \xE7\u0131k\u0131nca \u015F\xFCpheler yo\u011Funla\u015F\u0131yor."
+  caseName: Vaka1
+  caseDescription: "Bir apartmanda \xE7\u0131kan gece yar\u0131s\u0131 yang\u0131n\u0131,
+    3 dairenin a\u011F\u0131r hasar g\xF6rmesine neden oldu. 4 Ocak gece saat 03:20\u2019de
+    binan\u0131n zemin kat\u0131nda duman kokusu hissediliyor. Alarm sistemi devreye
+    girmiyor. Kom\u015Fulardan biri \xE7\u0131k\u0131\u015F kap\u0131s\u0131n\u0131
+    zorlayarak k\u0131rmak zorunda kal\u0131yor.\r\n\u0130tfaiye ekipleri yang\u0131n\u0131n
+    elektrik panosundan \xE7\u0131kt\u0131\u011F\u0131n\u0131 belirtiyor, ama yang\u0131n
+    \xE7\u0131k\u0131\u015F kap\u0131s\u0131n\u0131n kilitli olmas\u0131 b\xFCy\xFCk
+    risk yaratm\u0131\u015F. Kamera g\xF6r\xFCnt\xFCs\xFC yok. Apartman g\xF6revlisi
+    Yasin, \u201CYang\u0131ndan 10 dakika \xF6nce sigorta kutusunu kontrol ettim\u201D
+    diyor.\r\nAncak baz\u0131 apartman sakinleri yang\u0131n\u0131n \"sabotaj\" olabilece\u011Fini
+    iddia ediyor. Olay \xF6ncesi apartmanda aidat anla\u015Fmazl\u0131klar\u0131
+    ya\u015Fanm\u0131\u015Ft\u0131. San\u0131k Yasin Erdem, y\xF6neticilik g\xF6revini
+    k\xF6t\xFCye kullanmakla ve \u201Cyang\u0131n \xE7\u0131k\u0131\u015F kap\u0131s\u0131n\u0131
+    bilerek kilitlemekle\u201D su\xE7lan\u0131yor. Yang\u0131n esnas\u0131nda \xE7\u0131k\u0131\u015F
+    kap\u0131s\u0131n\u0131n kilitli oldu\u011Fu do\u011Frulanm\u0131\u015F durumda.
+    Kamera kay\u0131tlar\u0131 eksik. Yasin ise \u201Csistemi kontrol etti\u011Fini,
+    kap\u0131y\u0131 a\xE7\u0131k b\u0131rakt\u0131\u011F\u0131n\u0131\u201D savunuyor.\r\n"
   trueVerdict: 1
+  whatReallyHappened: "DAVA SONUCU  \r\n(Yang\u0131n G\xFCvenli\u011Fi \u0130hmali
+    - Yasin Erdem)\r\n\r\n\xD6ZET  \r\n4 Ocak saat 03:20'de \xE7\u0131kan ve 3 dairede
+    a\u011F\u0131r hasara yol a\xE7an yang\u0131nla ilgili soru\u015Fturma tamamland\u0131. 
+    \r\nApartman g\xF6revlisi Yasin Erdem, yang\u0131n \xE7\u0131k\u0131\u015F kap\u0131s\u0131n\u0131
+    bilerek kilitlemek ve y\xF6neticilik g\xF6revini k\xF6t\xFCye kullanmakla yarg\u0131land\u0131.\r\n\r\nSORU\u015ETURMA
+    BULGULARI  \r\n\u2022 Yang\u0131n \xF6ncesi apartmanda aidat anla\u015Fmazl\u0131klar\u0131
+    vard\u0131.  \r\n\u2022 Yang\u0131n alarm sistemi 1 y\u0131ldan fazla s\xFCredir
+    bak\u0131ms\u0131zd\u0131.  \r\n\u2022 Yasin'in yang\u0131ndan 10 dk \xF6nce
+    sigorta kutusunu kontrol etti\u011Fi iddias\u0131, elektrik m\xFChendisi raporuyla
+    \xE7eli\u015Fiyor.  \r\n\u2022 Yang\u0131n \xE7\u0131k\u0131\u015F kap\u0131s\u0131
+    kilitliydi ve zorlanarak k\u0131r\u0131ld\u0131.  \r\n\u2022 Yang\u0131n, elektrik
+    panosundan ba\u015Flay\u0131p h\u0131zla yay\u0131ld\u0131. Alarm \xE7al\u0131\u015Fmad\u0131\u011F\u0131
+    i\xE7in m\xFCdahale gecikti.  \r\n\u2022 Sakinler panik ya\u015Fad\u0131; bir
+    ki\u015Finin kap\u0131y\u0131 k\u0131rmas\u0131 sayesinde can kayb\u0131 olmad\u0131.\r\n\r\nTANIK
+    \u0130FADELER\u0130  \r\n\u2022 Kom\u015Fu:  \r\n\"Yasin kap\u0131y\u0131 h\u0131rs\u0131zl\u0131k
+    korkusuyla kilitlemi\u015F, uyar\u0131lara 'bir \u015Fey olmaz' demi\u015F.\"\r\n\r\n\u2022
+    \u0130tfaiye G\xF6revlisi:  \r\n\"Alarm \xE7al\u0131\u015Fmad\u0131\u011F\u0131
+    ve kap\u0131 kilitli oldu\u011Fu i\xE7in m\xFCdahale gecikti. Bu durum y\xF6netmeli\u011Fe
+    ayk\u0131r\u0131.\"\r\n\r\n\u2022 Elektrik M\xFChendisi:  \r\n\"K\u0131sa devre,
+    bak\u0131ms\u0131zl\u0131k ve a\u015F\u0131r\u0131 y\xFCklenmeden kaynaklan\u0131yor.
+    Ar\u0131zalar \xF6nceden fark edilebilirdi.\"\r\n\r\n\u2022 Sakin:  \r\n\"Aidat
+    anla\u015Fmazl\u0131klar\u0131 vard\u0131. Yasin, \xF6deme yapmayanlara sert
+    davran\u0131yordu.\"\r\n\r\nSONU\xC7 VE KARAR  \r\nMahkeme, Yasin Erdem\u2019i
+    su\xE7lu buldu. A\u015Fa\u011F\u0131daki maddeler kan\u0131tland\u0131:\r\n\r\n\u2022
+    Alarm bak\u0131m\u0131n\u0131 ihmal etti\u011Fi,  \r\n\u2022 Yang\u0131n \xE7\u0131k\u0131\u015F
+    kap\u0131s\u0131n\u0131 bilerek kilitledi\u011Fi,  \r\n\u2022 Ar\u0131zay\u0131
+    fark etmi\u015F olabilece\u011Fi halde \xF6nlem almad\u0131\u011F\u0131,  \r\n\u2022
+    Aidat krizleri nedeniyle g\xF6revini ihmal etti\u011Fi.\r\n\r\n**Cezas\u0131:**
+    3 y\u0131l 4 ay hapis ve maddi tazminat.\r\n\r\nEK NOT  \r\nSabotaj iddialar\u0131n\u0131
+    destekleyen kan\u0131t yok.  \r\nYang\u0131n\u0131n as\u0131l nedeni\r\n"
   validScenarios:
   - scenarioName: Senaryo1
     requiredCardIDs:
-    - bahce
-    - kolye
-    - usak
-    - asci
-    - hanimefendi
-    supportedVerdict: 2
+    - aidat
+    - "kilitlikap\u0131"
+    - sigorta
+    - "yang\u0131n"
+    - panik
+    - "ilkm\xFCdahale"
+    supportedVerdict: 1
   - scenarioName: Senaryo2
     requiredCardIDs:
-    - hanimefendi
-    - asci
-    - usak
-    - kolye
-    - bahce
+    - "kilitlikap\u0131"
+    - sigorta
+    - aidat
+    - "yang\u0131n"
+    - panik
+    - "ilkm\xFCdahale"
     supportedVerdict: 1
+  - scenarioName: Senaryo3
+    requiredCardIDs:
+    - "ar\u0131za"
+    - sigorta
+    - "kilitlikap\u0131"
+    - "yang\u0131n"
+    - panik
+    - "ilkm\xFCdahale"
+    supportedVerdict: 2
+  - scenarioName: Senaryo4
+    requiredCardIDs:
+    - sigorta
+    - "kilitlikap\u0131"
+    - "ar\u0131za"
+    - "yang\u0131n"
+    - panik
+    - "ilkm\xFCdahale"
+    supportedVerdict: 2

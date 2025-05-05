@@ -14,6 +14,7 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     private float lastClickTime = 0f;
     private float doubleClickThreshold = 0.3f;
     private RectTransform rectTransform;
+    private Vector2 originalSize;
 
     private bool isHovered = false;
 
@@ -21,6 +22,7 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     {
         rectTransform = GetComponent<RectTransform>();
         originalParent = transform.parent;
+        originalSize = rectTransform.sizeDelta; // Orijinal boyutu kaydet
 
         rectTransform.anchorMin = new Vector2(0.5f, 0.5f);
         rectTransform.anchorMax = new Vector2(0.5f, 0.5f);
@@ -30,7 +32,7 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     IEnumerator Start()
     {
         yield return null; // Tüm kartlar sahneye yerleşene kadar 1 frame bekle
-        UpdateFanLayout(); // Doğru fan düzenlemesini uygula
+       // UpdateFanLayout(); // Doğru fan düzenlemesini uygula
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -85,16 +87,24 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     {
         if (isPlaced) return;
 
+        // Önce kartı slot'un child'ı olarak ayarla
         rectTransform.SetParent(slot);
+    
+        // Kartı slot'un merkezine yerleştir
         rectTransform.localPosition = Vector3.zero;
         rectTransform.localRotation = Quaternion.identity;
     
-        // Kartı slotun boyutuna orantılı olarak ölçeklendir
+        // Kartın boyutunu slot'un boyutuyla aynı yap
         RectTransform slotRectTransform = slot.GetComponent<RectTransform>();
-        float widthRatio = slotRectTransform.rect.width / rectTransform.rect.width;
-        float heightRatio = slotRectTransform.rect.height / rectTransform.rect.height;
-
-        rectTransform.localScale = new Vector3(widthRatio, heightRatio, 1); // Kartın boyutunu slot ile orantılı hale getir
+    
+        // Kartın anchors ve sizeDelta değerlerini ayarla
+        rectTransform.anchorMin = new Vector2(0, 0);
+        rectTransform.anchorMax = new Vector2(1, 1);
+        rectTransform.offsetMin = Vector2.zero;
+        rectTransform.offsetMax = Vector2.zero;
+    
+        // Scale'i sıfırla, artık stretch kullanacağız
+        rectTransform.localScale = Vector3.one;
 
         isPlaced = true;
         selectedCard = null;
@@ -106,16 +116,20 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     {
         if (!isPlaced) return;
 
-        // Kartın orijinal boyutunu koruyun
-        Vector2 originalSize = rectTransform.sizeDelta;
-
         rectTransform.SetParent(originalParent);
+    
+        // Fan düzenine uygun ayarları geri yükle
+        rectTransform.anchorMin = new Vector2(0.5f, 0.5f);
+        rectTransform.anchorMax = new Vector2(0.5f, 0.5f);
+        rectTransform.pivot = new Vector2(0.5f, 0f); // Alt orta pivot - fan düzeni için
+    
+        // Kartın orijinal boyutlarını geri yükle
+        rectTransform.sizeDelta = new Vector2(100f, 150f); // Kartın orijinal boyutlarını buraya yazın
+        rectTransform.localScale = Vector3.one;
+    
         isPlaced = false;
         selectedCard = null;
-
-        // Kartın boyutunu sabitle ve scale'ini sıfırla
-        rectTransform.sizeDelta = originalSize;
-        rectTransform.localScale = Vector3.one; // Kartın boyutunu sabitle
+        rectTransform.sizeDelta = originalSize; // Orijinal boyutu geri yükle
 
         UpdateFanLayout(); // Yeni yerleşim düzenini uygula
     }
@@ -126,7 +140,7 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         UpdateFanLayout();
     }
 
-    private void UpdateFanLayout()
+    public void UpdateFanLayout()
     {
         List<RectTransform> siblings = new List<RectTransform>();
 
@@ -137,8 +151,8 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
                 siblings.Add(child.GetComponent<RectTransform>());
         }
 
-        float fanAngle = 30f;
-        float radius = 200f;
+        float fanAngle = 28f;
+        float radius = 500f;
         int count = siblings.Count;
         float stepAngle = count > 1 ? fanAngle / (count - 1) : 0f;
         float startAngle = -fanAngle / 2f;
@@ -151,6 +165,6 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
             Vector3 pos = new Vector3(Mathf.Sin(rad) * radius, Mathf.Cos(rad) * radius - radius, 0);
             siblings[i].localPosition = pos;
             siblings[i].localRotation = Quaternion.Euler(0, 0, -angle);
-        }
-    }
+        }
+    }
 }

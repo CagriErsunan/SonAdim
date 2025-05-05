@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5eac92eb99fb9148b0891540809e2b7, type: 3}
+  m_Name: Vaka4
+  m_EditorClassIdentifier: 
+  caseName: Vaka4
+  caseDescription: "\xDCnl\xFC yazar Tun\xE7 Yalman, yeni roman\u0131n\u0131n lansman\u0131
+    i\xE7in \xE7\u0131kt\u0131\u011F\u0131 yarat\u0131c\u0131 yazarl\u0131k kamp\u0131nda,
+    konaklad\u0131\u011F\u0131 da\u011F evinde sabaha kar\u015F\u0131 \xF6l\xFC bulundu.
+    Cesedi, \xE7al\u0131\u015Fma odas\u0131nda yard\u0131mc\u0131s\u0131 Bahar taraf\u0131ndan
+    sabah saatlerinde bulundu. Kap\u0131 i\xE7eriden kilitliydi ve pencereler de
+    i\xE7eriden kapat\u0131lm\u0131\u015Ft\u0131. Oda i\xE7inde herhangi bir zorlanma
+    izi yoktu. Kurban, ba\u015F\u0131na sert bir cisimle vurularak \xF6ld\xFCr\xFClm\xFC\u015Ft\xFC.
+    Evde o gece Tun\xE7\u2019la birlikte toplam d\xF6rt ki\u015Fi daha bulunuyordu:
+    yard\u0131mc\u0131s\u0131 Bahar, edit\xF6r\xFC Deniz, eski dostu Kerem ve ki\u015Fisel
+    asistan\u0131 Lale. Hepsi, olay\u0131n i\u015Flendi\u011Fi gece evde olduklar\u0131n\u0131
+    ancak odalar\u0131nda olduklar\u0131n\u0131 iddia etti.\nBahar, sabah kahvalt\u0131
+    haz\u0131rlamak i\xE7in yukar\u0131 \xE7\u0131kt\u0131\u011F\u0131nda kap\u0131y\u0131
+    a\xE7amay\u0131nca camdan bakarak cesedi fark etti\u011Fini s\xF6yl\xFCyor. Polis
+    olay yerine ula\u015Ft\u0131\u011F\u0131nda, cesedin yan\u0131nda k\u0131r\u0131k
+    bir masa lambas\u0131, devrilmi\u015F bir sandalye ve kurban\u0131n bilgisayar\u0131
+    vard\u0131. Bilgisayar\u0131n ekran\u0131 a\xE7\u0131kt\u0131 ve son a\xE7\u0131lan
+    dosya saat 22:46\u2019da kaydedilmi\u015Fti. Dosyada \"Bir \u015Feyler ters gidiyor.
+    Bu insanlara g\xFCvenemem.\" yaz\u0131yordu. Kom\u015Fular gece 23:00\u2019ten
+    sonra evden y\xFCksek bir ses duyduklar\u0131n\u0131 bildirdi.\nOda yaln\u0131zca
+    kurban\u0131n anahtar\u0131na \xF6zel bir kilitle a\xE7\u0131labiliyordu. Ancak
+    Bahar\u2019\u0131n \xE7antas\u0131nda yedek bir anahtar bulundu. Cinayet aleti
+    olarak de\u011Ferlendirilen kitap ise dikkat \xE7ekiciydi: Tun\xE7\u2019un y\u0131llar
+    \xF6nce dostu Kerem\u2019e hediye etti\u011Fi \xF6zel bask\u0131 bir roman, \u015Fimdi
+    kan i\xE7inde ve kurban\u0131n yan\u0131nda duruyordu. Kerem, kitab\u0131 odas\u0131nda
+    b\u0131rakt\u0131\u011F\u0131n\u0131 ve cinayetle ilgisinin olmad\u0131\u011F\u0131n\u0131
+    s\xF6yl\xFCyor. Bilgisayarda bulunan ve k\u0131smen silinmi\u015F bir ses kayd\u0131nda
+    ise yaln\u0131zca nefes sesleri ve k\u0131s\u0131k bir \u201CYapma\u201D f\u0131s\u0131lt\u0131s\u0131
+    duyuluyor. D\u0131\u015Far\u0131dan eri\u015Fim m\xFCmk\xFCn olmad\u0131\u011F\u0131na
+    g\xF6re, katil evdekilerden biri olmal\u0131.\n"
+  trueVerdict: 0
+  whatReallyHappened: " KAPALI KAPI C\u0130NAYET\u0130\r\n DAVA\uE092 Yazar Tun\xE7
+    Yalman Cinayeti\r\n RAPOR\uE092 Soru\u015Fturma Sonu\xE7 \xD6zeti\r\n Olay\u0131n
+    \xD6zeti:\r\n \xDCnl\xFC yazar Tun\xE7 Yalman, yarat\u0131c\u0131 yazarl\u0131k
+    kamp\u0131 s\u0131ras\u0131nda konaklad\u0131\u011F\u0131 da\u011F evinde, \r\ni\xE7eriden
+    kilitli \xE7al\u0131\u015Fma odas\u0131nda sabah saatlerinde \xF6l\xFC bulunmu\u015Ftur.
+    Cesedi, \r\nyard\u0131mc\u0131s\u0131 Bahar taraf\u0131ndan fark edilmi\u015Ftir.
+    Olay, klasik \u201Ckapal\u0131 oda\u02EE \r\ncinayetlerindeki gibi gizemli ko\u015Fullar
+    alt\u0131nda ger\xE7ekle\u015Fmi\u015Ftir.\r\n Deliller ve Zaman \xC7izelgesi:\r\n
+    Yalman\u02BC\u0131n bilgisayar\u0131nda 22\uE09246\u02BCda kaydedilmi\u015F,
+    \u201CBu insanlara g\xFCvenemem\u02EE \r\nnotu yer al\u0131r.\r\n Silinmeye \xE7al\u0131\u015F\u0131lm\u0131\u015F
+    ses kayd\u0131nda \u201CYapma\u02EE f\u0131s\u0131lt\u0131s\u0131 duyulmu\u015Ftur.\r\n
+    Kom\u015Fular 23\uE09200 sonras\u0131 y\xFCksek sesler duymu\u015Ftur.\r\n Oda
+    i\xE7eriden kilitlidir, ancak Bahar\u02BC\u0131n \xE7antas\u0131nda yedek anahtar
+    bulunmu\u015Ftur.\r\n Cinayet silah\u0131 olarak kullan\u0131lan ve Kerem\u02BCe
+    ait \xF6zel bask\u0131 kitap \xFCzerinde \r\nKerem\u02BCin parmak izleri vard\u0131r.\r\n
+    \xD6l\xFCm saati 23\uE09200\uE08900\uE09200 aras\u0131, \xF6l\xFCm nedeni ba\u015Fa
+    al\u0131nan darbe (kitapla).\r\n Ses kayd\u0131, adli bili\u015Fimce k\u0131smen
+    kurtar\u0131lm\u0131\u015F; Tun\xE7\u02BCun sesi tespit edilmi\u015Ftir.\r\n
+    2\r\n Senaryo Sonu\xE7lar\u0131\r\nTan\u0131k \u0130fadeleri ve \xC7eli\u015Fkiler:\r\n
+    Bahar: Cesedi camdan bakarak g\xF6rd\xFC\u011F\xFCn\xFC s\xF6yler, fakat \xE7antas\u0131nda
+    bulunan \r\nyedek anahtar\u0131 neden kullanmad\u0131\u011F\u0131n\u0131 a\xE7\u0131klayamaz.\r\n
+    Deniz: Gece hi\xE7bir \u015Fey duymad\u0131\u011F\u0131n\u0131 iddia eder, ancak
+    kom\u015Fular\u0131n duydu\u011Fu \r\ny\xFCksek sesleri duymam\u0131\u015F olmas\u0131
+    mant\u0131ks\u0131zd\u0131r.\r\n Kerem: Kitab\u0131n kendisine ait oldu\u011Funu
+    kabul eder ama cinayetle ilgisi \r\nolmad\u0131\u011F\u0131n\u0131 s\xF6yler.
+    Ancak kitap olay yerinde kanl\u0131 bulunmu\u015Ftur.\r\n Lale: \xC7al\u0131\u015Fma
+    odas\u0131n\u0131n \u0131\u015F\u0131\u011F\u0131n\u0131 22\uE09230\u02BCda g\xF6rd\xFC\u011F\xFCn\xFC
+    belirtir. Bu ifade, \r\nbilgisayardaki son kay\u0131t saatiyle tutarl\u0131d\u0131r.\r\n
+    Su\xE7un \xC7\xF6z\xFCm\xFC ve Failin Belirlenmesi:\r\n Yap\u0131lan teknik analizler
+    ve tan\u0131k ifadeleri sonucu Bahar\u02BC\u0131n su\xE7lu oldu\u011Fu \r\nbelirlenmi\u015Ftir.\r\n
+    Yedek anahtarla oday\u0131 d\u0131\u015Far\u0131dan kilitleyerek \u201Ckapal\u0131
+    oda\u02EE izlenimi yaratm\u0131\u015Ft\u0131r.\r\n Cesedi g\xF6r\xFCnce camdan
+    bakmas\u0131, normalde anahtar\u0131 kullanmas\u0131 beklenirken \r\n\u015F\xFCphelidir.\r\n
+    Bilgisayardaki ses kayd\u0131n\u0131 silmeye \xE7al\u0131\u015Fm\u0131\u015F,
+    bu da delilleri yok etme \xE7abas\u0131na \r\ni\u015Farettir.\r\n Kerem\u02BCin
+    kitab\u0131n\u0131 cinayet silah\u0131 olarak kullanarak su\xE7 y\xF6nlendirmesi
+    yapm\u0131\u015Ft\u0131r.\r\n Tun\xE7\u02BCun son notu, en yak\u0131n\u0131ndakilere
+    duyulan g\xFCvensizli\u011Fe i\u015Faret eder.\r\n Olas\u0131 Motif:\r\n Tun\xE7\u02BCun
+    yeni kitab\u0131nda Bahar\u02BC\u0131n ge\xE7mi\u015Fine dair baz\u0131 s\u0131rlar\u0131
+    if\u015Fa edece\u011Fi ve bunun \r\nBahar\u02BC\u0131n kariyerine zarar verece\u011Fi
+    d\xFC\u015F\xFCn\xFClmektedir. Bahar, bu bilgilerin a\xE7\u0131\u011Fa \r\n\xE7\u0131kmas\u0131n\u0131
+    \xF6nlemek i\xE7in cinayeti i\u015Flemi\u015Ftir.\r\n Sonu\xE7:\r\n Bahar, \u201Ckasten
+    adam \xF6ld\xFCrme\u02EE su\xE7uyla tutuklanm\u0131\u015F ve hakk\u0131nda a\u011F\u0131rla\u015Ft\u0131r\u0131lm\u0131\u015F
+    \r\nm\xFCebbet hapis cezas\u0131 istemiyle dava a\xE7\u0131lm\u0131\u015Ft\u0131r.
+    Olay, ironik bir \u015Fekilde Tun\xE7\u02BCun \r\nromanlar\u0131nda s\u0131k\xE7a
+    i\u015Fledi\u011Fi \u201Ckapal\u0131 oda cinayeti\u02EE temas\u0131n\u0131 yans\u0131tmaktad\u0131r"
+  validScenarios:
+  - scenarioName: Senaryo1
+    requiredCardIDs:
+    - "\u0131\u015F\u0131k"
+    - "tan\u0131k"
+    - "kap\u0131"
+    - "seskayd\u0131"
+    - not
+    - yedek
+    supportedVerdict: 1
+  - scenarioName: Senaryo2
+    requiredCardIDs:
+    - "tan\u0131k"
+    - "kap\u0131"
+    - kan
+    - "seskayd\u0131"
+    - not
+    - "\u0131\u015F\u0131k"
+    supportedVerdict: 1

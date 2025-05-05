@@ -16,6 +16,9 @@ public class Scenarios : ScriptableObject
     // Bu dava için doğru olan nihai sonuç
     public Verdict trueVerdict = Verdict.Undecided;
 
+    [Header("Olayın Aslında Ne Oldu?")]    
+    [TextArea(3, 5)]
+    public string whatReallyHappened = "Aslında ne oldu...";
     // Başarılı sayılacak senaryo(lar).
     // Her bir iç liste, belirli bir sonucu kanıtlayan kartların ID'lerini veya isimlerini
     // doğru sırada içermeli.

@@ -12,7 +12,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5eac92eb99fb9148b0891540809e2b7, type: 3}
   m_Name: Vaka3
   m_EditorClassIdentifier: 
-  caseName: Yeni Vaka
-  caseDescription: "Vaka a\xE7\u0131klamas\u0131..."
+  caseName: Vaka3
+  caseDescription: "T\xFCrkiye genelinden se\xE7ilen gen\xE7 giri\u015Fimcilerin
+    kat\u0131ld\u0131\u011F\u0131 prestijli bir teknoloji kamp\u0131nda, yar\u0131\u015Fma
+    finalinden bir g\xFCn \xF6nce favori ekiplerden birinin dosyas\u0131 gizemli
+    \u015Fekilde silindi. Ekip lideri Mert \u015Eahin, sunumu teslim ettikten sonra
+    dosyan\u0131n sistemden kayboldu\u011Funu bildiriyor. Organizasyon komitesi yedek
+    kay\u0131tlar\u0131n da silindi\u011Fini fark ediyor. Kamp alan\u0131nda sadece
+    birka\xE7 ki\u015Fi sunum sistemine eri\u015Febiliyor. Sunum dosyalar\u0131 saat
+    20:00\u2019ye kadar sisteme y\xFCklenmi\u015F olmal\u0131yd\u0131. Mert dosyay\u0131
+    19:45\u2019te teslim etti\u011Fini s\xF6yl\xFCyor. 21:00'de sistemde dosyan\u0131n
+    bulunmad\u0131\u011F\u0131 anla\u015F\u0131l\u0131yor. Gece 00:20'de yedekleme
+    kontrol edildi\u011Finde Mert'in dosyas\u0131n\u0131n yede\u011Fi de eksikti.
+    Giri\u015F kay\u0131tlar\u0131na g\xF6re o saatler aras\u0131nda sadece d\xF6rt
+    ki\u015Finin sistem odas\u0131na eri\u015Fimi olmu\u015F.\r\n"
   trueVerdict: 0
-  validScenarios: []
+  whatReallyHappened: "DOSYA S\u0130L\u0130NMES\u0130 SORU\u015ETURMA RAPORU\r\n
+    DAVA\uE092 Teknoloji Kamp\u0131 Kay\u0131p Sunum Dosyas\u0131\r\n \xD6ZET\uE092\r\n
+    Yar\u0131\u015Fma finalinden bir g\xFCn \xF6nce, Mert \u015Eahin\u02BCin liderli\u011Findeki
+    ekibin sunum \r\ndosyas\u0131n\u0131n sistemden silinmesi \xFCzerine ba\u015Flat\u0131lan
+    soru\u015Fturma tamamland\u0131. \r\nDosyan\u0131n kas\u0131tl\u0131 olarak silindi\u011Fi,
+    failin Simge oldu\u011Fu kesin olarak belirlendi.\r\n BULGULAR\uE092\r\n Mert\u02BCin
+    dosyay\u0131 19\uE09245\u02BCte y\xFCkledi\u011Fi ekran g\xF6r\xFCnt\xFCs\xFCyle
+    do\u011Fruland\u0131.\r\n Saat 20\uE09215\u02BCte dosya admin yetkisiyle silindi.\r\n
+    Silme i\u015Flemi Simge\u02BCnin IP adresinden ger\xE7ekle\u015Fti.\r\n Ayn\u0131
+    IP ile yedekleme sistemine de eri\u015Filip dosya tamamen silindi.\r\n Simge\u02BCnin
+    bilgisayar\u0131nda sistem \u015Fifrelerinin bulundu\u011Fu dosya tespit edildi.\r\n
+    \u0130fadesinde \xE7eli\u015Fkiler bulundu.\r\n TANIK \u0130FADELER\u0130\uE092\r\n
+    Mert: Dosyay\u0131 y\xFCkledi\u011Fini ve sistemsel sorun sand\u0131\u011F\u0131n\u0131
+    belirtti.\r\n Simge: Olay saatini \xE7eli\u015Fkili \u015Fekilde aktard\u0131.\r\n
+    Yi\u011Fit: Sistem a\xE7\u0131klar\u0131 hakk\u0131nda \xF6nceden uyar\u0131da
+    bulunmu\u015Ftu.\r\n Aysun: Yedekleme sistemini devreye almad\u0131\u011F\u0131n\u0131
+    kabul etti.\r\n KARAR\uE092\r\n 5\r\n Senaryo Sonu\xE7lar\u0131\r\nSimge, bilerek
+    dosyay\u0131 silmekten su\xE7lu bulundu ve a\u015Fa\u011F\u0131daki yapt\u0131r\u0131mlar
+    \r\nuyguland\u0131:\r\n Diskalifiye edildi ve kamptan ihra\xE7 edildi.\r\n 1
+    y\u0131l s\xFCreyle benzer etkinliklerden men edildi.\r\n EK \xD6NLEMLER\uE092\r\n
+    Mert\u02BCin ekibine ek s\xFCre verildi, final sunumlar\u0131 ertelendi.\r\n
+    Sistem g\xFCvenli\u011Fi g\xFC\xE7lendirilecek, giri\u015Fler daha s\u0131k\u0131
+    denetlenecek"
+  validScenarios:
+  - scenarioName: Senaryo1
+    requiredCardIDs:
+    - rekabet
+    - "y\xFCkleme"
+    - "a\xE7\u0131k"
+    - "eri\u015Fim"
+    - "\xE7eli\u015Fki"
+    - log
+    supportedVerdict: 1
+  - scenarioName: Senaryo2
+    requiredCardIDs:
+    - rekabet
+    - "y\xFCkleme"
+    - "eri\u015Fim"
+    - yedek
+    - log
+    - "\xE7eli\u015Fki"
+    supportedVerdict: 1
+  - scenarioName: Senaryo3
+    requiredCardIDs:
+    - "y\xFCkleme"
+    - log
+    - "eri\u015Fim"
+    - "\xE7eli\u015Fki"
+    - "a\xE7\u0131k"
+    - yedek
+    supportedVerdict: 2
+  - scenarioName: Senaryo4
+    requiredCardIDs:
+    - "a\xE7\u0131k"
+    - rekabet
+    - "y\xFCkleme"
+    - log
+    - "eri\u015Fim"
+    - yedek
+    supportedVerdict: 1

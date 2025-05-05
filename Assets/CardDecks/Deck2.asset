@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea0a76e26950a341862d05523f8ce2c, type: 3}
+  m_Name: Deck2
+  m_EditorClassIdentifier: 
+  deckName: Vaka2
+  cards:
+  - {fileID: 6073919545034708606, guid: 2fc276baef7a5f04f871256a61c0da6e, type: 3}
+  - {fileID: 2025602261743028246, guid: 0e46a4784305151419f58bf3e2c9e292, type: 3}
+  - {fileID: 5772302218797161569, guid: 2e96975802a00b24cbd6da3476d8c272, type: 3}
+  - {fileID: 2817665330738059532, guid: 5c85e614ca4bf144684c5e43001ec59d, type: 3}
+  - {fileID: 8697695486819388805, guid: f74db14158c49f14bb16a842b1e55bec, type: 3}
+  - {fileID: 8233945211224893625, guid: 032dd8e0cf3573343906a016727c0d5a, type: 3}
+  - {fileID: 4313998189524688096, guid: 730c8ed3445f6fd4d9ecf47973a88b40, type: 3}
